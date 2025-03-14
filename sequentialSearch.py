@@ -9,3 +9,4 @@ arr = [3, 10, 15, 7, 18, 9]
 target = 15
 result = sequential_search(arr, target)
 print(f"Sequential Search: Target found at index {result}" if result != -1 else "Target not found")
+
