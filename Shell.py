@@ -20,4 +20,7 @@ arr = [12, 34, 54, 2, 3]
 shell_sort(arr)
 print("Sorted array:", arr)
 
-
+# Another example
+arr1=[103,456,100,890,55,269,26]
+shell_sort(arr1)
+print('sorted array;',arr1)
