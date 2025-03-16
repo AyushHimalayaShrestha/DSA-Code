@@ -34,3 +34,9 @@ def merge_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 merge_sort(arr)
 print("Merge Sorted Array:", arr)
+
+# Another Example
+arr1 =[198,982,344,87,2,78,34,21]
+merge_sort(arr1)
+print('Merge Sorted Array: ',arr1)
+
