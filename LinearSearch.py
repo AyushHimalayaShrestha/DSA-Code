@@ -1,0 +1,14 @@
+def find_largest(arr):
+    # Assume the first element is the largest
+    largest = arr[0]
+    
+    # Traverse the array starting from the second element
+    for num in arr[1:]:
+        if num > largest:
+            largest = num  # Update largest if a larger number is found
+    
+    return largest
+
+# Example array
+arr = [3, 12, 5, 7, 120, 20, 6,34,57,8,89]
+print("The largest element is:", find_largest(arr))
