@@ -10,3 +10,9 @@ target = 15
 result = sequential_search(arr, target)
 print(f"Sequential Search: Target found at index {result}" if result != -1 else "Target not found")
 
+# Another example
+arr1=[90,45,66,54,78,32,2,89]
+target=43
+result2=sequential_search(arr1, target)
+print(f'Sequential Search2: Target found at index{result2}' if result2 != -1 else 'Target not found')
+
