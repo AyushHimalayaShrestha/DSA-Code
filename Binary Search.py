@@ -16,5 +16,8 @@ target = 15
 result = binary_search(arr, target)
 print(f"Binary Search: Target found at index {result}" if result != -1 else "Target not found")
 
-
-
+# Example usage
+arr1 =[15,25,27,89,60,55]
+target=89
+result2=binary_search(arr1,target)
+print(f"Binary Search: Target found at index {result2}" if result2 != -1 else "Target not found")
