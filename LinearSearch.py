@@ -12,3 +12,7 @@ def find_largest(arr):
 # Example array
 arr = [3, 12, 5, 7, 120, 20, 6,34,57,8,89]
 print("The largest element is:", find_largest(arr))
+
+# Another Example
+arr1 = [1234,234,345,456,6540,567,678,876]
+print('The Largest element is: ', find_largest(arr1))
