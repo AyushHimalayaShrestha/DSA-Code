@@ -12,3 +12,8 @@ def shell_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 shell_sort(arr)
 print("Shell Sorted Array:", arr)
+
+# Another example
+arr1 =[6768,4533,7654,345,5678,3425]
+shell_sort(arr1)
+print('Shell Sorted Array: ',arr1)
