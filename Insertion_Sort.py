@@ -11,3 +11,8 @@ def insertion_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 insertion_sort(arr)
 print("Insertion Sorted Array:", arr)
+
+# Another Example
+arr1 = [43,23,54,56,12,45,78,95,4,2,5,562]
+insertion_sort(arr1)
+print('Insertion Sorted Array: ',arr1)
