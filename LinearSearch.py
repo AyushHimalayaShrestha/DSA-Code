@@ -16,3 +16,6 @@ print("The largest element is:", find_largest(arr))
 # Another Example
 arr1 = [1234,234,345,456,6540,567,678,876]
 print('The Largest element is: ', find_largest(arr1))
+
+arr2 =[2345,5432,12345,6543,6789,54323,986745,10234]
+print('Thel Largest element is: ',find_largest(arr2))
