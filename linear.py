@@ -24,3 +24,13 @@ if result1 != -1:
     print(f' Element found at index {result1}')
 else:
     print('Element not found')
+
+# Example
+arr2 = [40,50,60,70,35]
+target =32
+result2 =linear_search(arr2,target)
+
+if result2 != -1:
+    print(f' Element found at index {result2}')
+else:
+    print('Element not found')
