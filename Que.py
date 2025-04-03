@@ -18,4 +18,6 @@ if __name__ == "__main__":
     queue = Queue()
     queue.enqueue(5)
     queue.enqueue(10)
+    queue.enqueue(15)
+    queue.enqueue(20)
     print(queue.dequeue())  
