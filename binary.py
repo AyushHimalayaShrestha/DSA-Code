@@ -12,5 +12,5 @@ def binary_search(arr, target):
 
 # Example Usage
 if __name__ == "__main__":
-    arr = [2, 4, 5, 8, 10]
-    print(binary_search(arr, 4))  # Output: 1
+    arr = [2, 4, 5, 8, 10,78,57,9]
+    print(binary_search(arr, 4))  
